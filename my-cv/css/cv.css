@@ -1,0 +1,94 @@
+    @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Raleway&display=swap');
+
+    * {
+        box-sizing: border-box;
+        font-family: 'Nanum Gothic', sans-serif;
+
+    }
+
+    body {
+        width: 1100px;
+        padding: 10px;
+        margin: 20px auto;
+        border: 1px solid #0b1541;
+
+    }
+
+    p {
+        font-size: 18px
+    }
+
+    .my-img {
+        position: relative;
+        border-radius: 9px;
+    }
+
+    .my-img img {
+        border-radius: 9px;
+        position: absolute;
+        border: #0b1541 10px solid;
+        left: 40px;
+        ;
+        bottom: -40px
+    }
+
+    .headline {
+        outline: solid #0b1541 10px;
+    }
+
+    .footer {
+        color: #fff;
+        background-color: #0b1541;
+        outline: solid #0b1541 10px;
+        padding: 20px 0px;
+        margin-top: 20px;
+    }
+
+    .portofolio,
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-gap: 20px
+    }
+
+    hr {
+        border: #0b1541 1px solid
+    }
+
+    .headline {
+        background-color: #0b1541;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        color: #fff;
+    }
+
+    td {
+        vertical-align: top;
+    }
+
+    .PROFESIONAL,
+    .award,
+    .language,
+    .my-img,
+    .footer-phone,
+    .footer-email {
+        grid-column: span 4
+    }
+
+    .education,
+    .intrest,
+    .informaion-headline,
+    .experience {
+        grid-column: span 8
+    }
+
+
+    .informaion-headline {
+        padding: 60px
+    }
+
+
+    .space {
+        grid-column: span 12;
+        height: 40px;
+    }

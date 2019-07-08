@@ -1,0 +1,46 @@
+*{      
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;        
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0px;
+    font-weight: bold;
+}
+
+
+body{
+    background-color: #999;
+}
+
+.chat-box {
+    width: 416px;
+    height: 433px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    border: 2px solid #333;
+    box-sizing: content-box
+}
+
+.discussion {
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.first-side {
+    float: left;
+}
+
+.second-side {
+    float: right;
+    text-align-last: left;
+    width: 300px;
+    padding: 10px;
+    background: #fff
+}
+
+.mini {
+    font-size: 12px
+}

@@ -1,0 +1,14 @@
+*{box-sizing: border-box;}
+
+.container{display: grid;height: 240px;width: 100%;grid-template-columns: repeat(6,16%);grid-gap: 5px}
+
+.box{height: 30px;}
+
+.box:nth-child(1){grid-column: span 1;grid-row:span 4;background-color: blue;height: 90%}
+.box:nth-child(2){grid-column: span 5;background-color: blue}
+.box:nth-child(3){grid-column: span 5;background-color: blue}
+.box:nth-child(4){grid-column: span 5;background-color: blue}
+.box:nth-child(5){grid-column: span 5;background-color: blue}
+textarea{height: 100%; width: 100%;}
+
+input{height: 100%;width: 100%;}

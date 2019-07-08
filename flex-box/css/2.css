@@ -1,0 +1,27 @@
+*{      
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;        
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0px;
+    font-weight: bold;
+    
+}
+h2{font-size:32px}
+body{
+    margin:  40px auto;
+    width: 100%;
+    text-align: center;
+    background-color: aquamarine
+  
+}
+
+.container{display: flex;flex-direction: column ;justify-content: center;align-items: center;height: 320px;width: 720px;background-color: azure;margin: auto}
+
+.Pagniation{ display: flex;justify-content: center;align-items: center;flex-direction: row}
+
+.page1,.page2,.page3,.page4,.page5,.page6,.page7,.page8,.page9,.page10,.page11,.page12,.page-1,.page-2{height: 27px ;width: 27px;background-color: aquamarine;display: flex;justify-content: center;align-items: center;border: rgba(0, 0, 0, 0.226) solid 1px}
+
+.page1:hover,.page2:hover,.page3:hover,.page4:hover,.page5:hover,.page6:hover,.page7:hover,.page8:hover,.page9:hover,.page10:hover,.page11:hover,.page12:hover,.page-1:hover,.page-2:hover{background-color: rgb(52, 116, 94);cursor: pointer; }
+

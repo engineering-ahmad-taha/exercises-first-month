@@ -1,0 +1,12 @@
+body{margin: 0px auto; text-align: center;width: 100%;background-color: #efc3fe;font-family: 'Raleway', sans-serif;
+}
+.container{display: flex; flex-direction: row ; margin: auto;text-align: center; flex-wrap: wrap;justify-content: center; margin:0px  auto}
+
+.box-carier{margin: 15px;display: flex;justify-content: center;text-align: center}
+
+
+.box{ height: 400px; width: 300px;display: flex;justify-content: flex-end ;align-items: center;border-radius:13px; background-image: linear-gradient(to bottom right, #ff001960, #ff7fe32d);flex-direction: column}
+
+.box img{width:200px;border-radius:13px;}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');

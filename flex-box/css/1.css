@@ -1,0 +1,20 @@
+*{      
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;        
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.container{display: flex;}
+
+.shapes1{height: 21vw ;width: 25%;background-color: orange;display: flex;justify-content: center;align-items: center}
+.shapes2{height: 21vw ;width: 25%;background-color: pink;display: flex;justify-content: center;align-items: center}
+.shapes3{height: 21vw ;width: 25%;background-color: brown;display: flex;justify-content: center;align-items: center}
+.shapes4{height: 21vw ;width: 25%;background-color: green;display: flex;justify-content: center;align-items: center}
